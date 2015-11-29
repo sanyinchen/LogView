@@ -30,7 +30,8 @@ such as:
 ##Summary  
 * Thanks for [Lynx](https://github.com/pedrovgs/Lynx),it‘s a very nice job.
 * If you have any question,please email to me(My email:sanyinchen@gmail.com)
-* Welcome to subscribe my [google+](https://plus.google.com/u/0/100465464266192894461)
+* Welcome to subscribe my [google+](https://plus.google.com/u/0/100465464266192894461)  
+
 ##Screenshots
 ![](https://github.com/sanyinchen/LogView/blob/master/source/instance1.gif)  
 ![](https://github.com/sanyinchen/LogView/blob/master/source/instance2.gif)
