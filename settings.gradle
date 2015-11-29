@@ -1,4 +1,4 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
 include ':app', ':logmodel'

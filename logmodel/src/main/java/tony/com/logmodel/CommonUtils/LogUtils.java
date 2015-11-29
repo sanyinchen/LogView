@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.CommonUtils;
+package tony.com.logmodel.CommonUtils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

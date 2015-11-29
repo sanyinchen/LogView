@@ -1,13 +1,13 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.model;
+package tony.com.logmodel.model;
 
 import java.util.LinkedList;
 import java.util.List;
 
 import android.util.Log;
-import baidu.com.logmodel.LogConfig;
+import tony.com.logmodel.LogConfig;
 
 /**
  * Created by sanyinchen on 15/11/24.

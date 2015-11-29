@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logview;
+package tony.com.logview;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import baidu.com.logmodel.LogView;
-import baidu.com.logmodel.LogWindow;
+import tony.com.logmodel.LogView;
+import tony.com.logmodel.LogWindow;
 
 public class MainActivity extends AppCompatActivity {
 

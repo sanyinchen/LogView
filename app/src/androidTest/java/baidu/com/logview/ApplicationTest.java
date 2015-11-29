@@ -1,4 +1,4 @@
-package baidu.com.logview;
+package tony.com.logview;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

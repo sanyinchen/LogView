@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
 apply plugin: 'com.android.application'
 
@@ -8,7 +8,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "baidu.com.logview"
+        applicationId "tony.com.logview"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

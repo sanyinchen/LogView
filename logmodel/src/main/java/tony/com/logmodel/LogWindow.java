@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel;
+package tony.com.logmodel;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -20,7 +20,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import baidu.com.logmodel.CommonUtils.LogUtils;
+import tony.com.logmodel.CommonUtils.LogUtils;
 
 /**
  * Created by sanyinchen on 15/11/25.

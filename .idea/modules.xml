@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LogView.iml" filepath="$PROJECT_DIR$/LogView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogView_GitHub.iml" filepath="$PROJECT_DIR$/LogView_GitHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/logmodel/logmodel.iml" filepath="$PROJECT_DIR$/logmodel/logmodel.iml" />
     </modules>

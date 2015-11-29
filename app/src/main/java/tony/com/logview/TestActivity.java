@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logview;
+package tony.com.logview;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -14,7 +14,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import baidu.com.logmodel.LogWindow;
+import tony.com.logmodel.LogWindow;
 
 public class TestActivity extends AppCompatActivity {
 

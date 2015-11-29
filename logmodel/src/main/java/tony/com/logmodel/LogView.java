@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel;
+package tony.com.logmodel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,14 +30,14 @@ import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
-import baidu.com.logmodel.CommonUtils.LogUtils;
-import baidu.com.logmodel.adpater.SimpleTextAdapter;
-import baidu.com.logmodel.control.LogCtrl;
-import baidu.com.logmodel.model.LogCat;
-import baidu.com.logmodel.model.LogMainThread;
-import baidu.com.logmodel.model.LogManager;
-import baidu.com.logmodel.model.TraceLevel;
-import baidu.com.logmodel.model.TraceObject;
+import tony.com.logmodel.CommonUtils.LogUtils;
+import tony.com.logmodel.adpater.SimpleTextAdapter;
+import tony.com.logmodel.control.LogCtrl;
+import tony.com.logmodel.model.LogCat;
+import tony.com.logmodel.model.LogMainThread;
+import tony.com.logmodel.model.LogManager;
+import tony.com.logmodel.model.TraceLevel;
+import tony.com.logmodel.model.TraceObject;
 
 /**
  * Created by sanyinchen on 15/11/24.

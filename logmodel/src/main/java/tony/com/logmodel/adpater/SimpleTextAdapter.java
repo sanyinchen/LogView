@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.adpater;
+package tony.com.logmodel.adpater;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import baidu.com.logmodel.model.TraceLevel;
-import baidu.com.logmodel.model.TraceObject;
+import tony.com.logmodel.model.TraceLevel;
+import tony.com.logmodel.model.TraceObject;
 
 /**
  * Created by sanyinchen on 15/11/25.

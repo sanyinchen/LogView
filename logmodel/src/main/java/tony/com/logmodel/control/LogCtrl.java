@@ -1,17 +1,17 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.control;
+package tony.com.logmodel.control;
 
 import java.util.List;
 
 import android.util.Log;
 import android.view.View;
-import baidu.com.logmodel.LogConfig;
-import baidu.com.logmodel.LogView;
-import baidu.com.logmodel.model.LogManager;
-import baidu.com.logmodel.model.TraceLevel;
-import baidu.com.logmodel.model.TraceObject;
+import tony.com.logmodel.LogConfig;
+import tony.com.logmodel.LogView;
+import tony.com.logmodel.model.LogManager;
+import tony.com.logmodel.model.TraceLevel;
+import tony.com.logmodel.model.TraceObject;
 
 /**
  * Created by sanyinchen on 15/11/24.

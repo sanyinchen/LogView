@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.model;
+package tony.com.logmodel.model;
 
 /**
  * Created by sanyinchen on 15/11/24.

@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel;
+package tony.com.logmodel;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

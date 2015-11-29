@@ -1,12 +1,12 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel.control;
+package tony.com.logmodel.control;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import baidu.com.logmodel.model.TraceObject;
+import tony.com.logmodel.model.TraceObject;
 
 /**
  * Created by sanyinchen on 15/11/24.

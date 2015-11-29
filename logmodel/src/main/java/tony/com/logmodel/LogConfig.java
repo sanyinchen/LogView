@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) Apache licence, Inc. All Rights Reserved.
  */
-package baidu.com.logmodel;
+package tony.com.logmodel;
 
 import java.io.Serializable;
 
-import baidu.com.logmodel.model.TraceLevel;
+import tony.com.logmodel.model.TraceLevel;
 
 /**
  * Created by sanyinchen on 15/11/24.
