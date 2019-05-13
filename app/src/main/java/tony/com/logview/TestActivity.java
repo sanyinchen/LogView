@@ -14,16 +14,18 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+
 import tony.com.logmodel.LogWindow;
 
 public class TestActivity extends AppCompatActivity {
+    private LogWindow logWindow;
 
     @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-        LogWindow logWindow = new LogWindow(this, getApplication()).setregisterLifeCycleInStop(false);
+        logWindow = new LogWindow(this, getApplication()).setregisterLifeCycleInStop(false);
         logWindow.creatLogView();
         Button button = (Button) findViewById(R.id.test_finish);
         button.setOnClickListener(new View.OnClickListener() {
@@ -35,12 +37,17 @@ public class TestActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.test_web);
         webView.setWebChromeClient(new DefaultWebChromeClient());
         webView.setWebViewClient(new DefaultWebViewClient());
-        // webView.loadUrl("http://www.sanyinchenblog.com/");
-        webView.loadUrl("https://plus.google.com/u/0/100465464266192894461/posts");
+        webView.loadUrl("https://developer.android.google.cn/");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             webView.setWebContentsDebuggingEnabled(true);
         }
 
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        logWindow.dismiss();
     }
 
     private class DefaultWebViewClient extends WebViewClient {

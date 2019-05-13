@@ -20,6 +20,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+
 import tony.com.logmodel.CommonUtils.LogUtils;
 
 /**
@@ -69,6 +70,12 @@ public class LogWindow {
     public LogWindow setLogCOnfig(LogConfig logConfig) {
         this.logConfig = logConfig;
         return this;
+    }
+
+    public void dismiss() {
+        if (isAdd && logView != null && logView.getParent() != null && wm != null) {
+            wm.removeView(logView);
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)

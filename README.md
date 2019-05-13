@@ -12,7 +12,7 @@ There are two ways to use this lib.
 1. Just import this model to your project , but do't forget change your build.gradle and setting.gradle.  
 2. Cd the list of my logmodel, and execute "./gradlew makeJar"(if it does't work , please use gradle makeJar) on the console.There will be build a jar(log.jar) in the libs list.
 
-##USE GRADLE DEPENDENCIES
+## ~~USE GRADLE DEPENDENCIES~~ （Discard）
 
 	allprojects {
 		repositories {
