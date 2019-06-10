@@ -25,7 +25,7 @@ There are two ways to use this lib.
 	        compile 'com.github.sanyinchen:LogView:v1.0'
 	}
 
-##USAGES  
+## USAGES  
 It's very simple to use this lib.You should add two line codes to your activity.  
 such as:  
 	
@@ -39,11 +39,11 @@ such as:
  Yes,it's onlely need one piece of promise and two code lines.No more other jars.  
  I think it's very import for a finished project.Because we usually don't want to import too much jars that we don't need in release.
  
-##Summary  
+## Summary  
 * Thanks for [Lynx](https://github.com/pedrovgs/Lynx),it‘s a very nice job.
 * If you have any question,please email to me(My email:sanyinchen@gmail.com)
 * Welcome to subscribe my [google+](https://plus.google.com/u/0/100465464266192894461)  
 
-##Screenshots
+## Screenshots
 ![](https://github.com/sanyinchen/LogView/blob/master/source/instance1.gif)  
 ![](https://github.com/sanyinchen/LogView/blob/master/source/instance2.gif)
